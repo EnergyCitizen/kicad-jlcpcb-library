@@ -1,0 +1,40 @@
+name: Update KiCad PCM index
+
+on:
+  schedule:
+    # daily at 07:30 UTC — after upstream CDFER release (~06:00–07:45 UTC)
+    - cron: "30 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install tools
+        run: sudo apt-get update && sudo apt-get install -y jq zip unzip
+
+      - name: Build PCM index
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: ./scripts/build-index.sh
+
+      - name: Commit changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add repository.json packages.json resources.zip
+          if git diff --cached --quiet; then
+            echo "No index changes."
+          else
+            git commit -m "chore: update PCM index ($(date -u +%Y-%m-%d))"
+            git push
+          fi
