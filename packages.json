@@ -24,6 +24,15 @@
       ],
       "versions": [
         {
+          "version": "2026.06.05",
+          "status": "stable",
+          "kicad_version": "8.0",
+          "download_sha256": "8e5959f34a8d597066bdb525ee68437042dacacec204fb66da67f8ee14fb0bb4",
+          "download_size": 22377176,
+          "install_size": 123883485,
+          "download_url": "https://github.com/CDFER/JLCPCB-Kicad-Library/releases/download/2026.06.05/JLCPCB-KiCad-Library-2026.06.05.zip"
+        },
+        {
           "version": "2026.06.04",
           "status": "stable",
           "kicad_version": "8.0",
@@ -283,15 +292,6 @@
           "download_size": 22377177,
           "install_size": 123883485,
           "download_url": "https://github.com/CDFER/JLCPCB-Kicad-Library/releases/download/2026.05.07/JLCPCB-KiCad-Library-2026.05.07.zip"
-        },
-        {
-          "version": "2026.05.06",
-          "status": "stable",
-          "kicad_version": "8.0",
-          "download_sha256": "3219174846a69eefe1c8e506bb2009503c85f431c59cd9f7df02203ed4bc6d41",
-          "download_size": 22377177,
-          "install_size": 123883485,
-          "download_url": "https://github.com/CDFER/JLCPCB-Kicad-Library/releases/download/2026.05.06/JLCPCB-KiCad-Library-2026.05.06.zip"
         }
       ]
     }
