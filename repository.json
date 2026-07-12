@@ -9,14 +9,14 @@
   "name": "EnergyCitizen JLCPCB KiCad Library (auto-mirror of CDFER releases)",
   "packages": {
     "url": "https://raw.githubusercontent.com/EnergyCitizen/kicad-jlcpcb-library/main/packages.json",
-    "sha256": "9f9fabab3f681a26e48fb41fdc16fc6d7b58416cfaf1fe1abdaa36bb39b2b0f9",
-    "update_timestamp": 1783760732,
-    "update_time_utc": "2026-07-11 09:05:32"
+    "sha256": "16452518dc0271240926e25d1a857f8d77054a406f06e61bfdd589ab8b14d2d9",
+    "update_timestamp": 1783848279,
+    "update_time_utc": "2026-07-12 09:24:39"
   },
   "resources": {
     "url": "https://raw.githubusercontent.com/EnergyCitizen/kicad-jlcpcb-library/main/resources.zip",
-    "sha256": "b8f4159c5951fe465aaaaa211710e45da7228cdc28d2fec225d6d20c73a89405",
-    "update_timestamp": 1783760732,
-    "update_time_utc": "2026-07-11 09:05:32"
+    "sha256": "af10ab315f2c00eb2c7ec300a58e2345ab3c94ec19ab8a8d8be7c167b116dfac",
+    "update_timestamp": 1783848279,
+    "update_time_utc": "2026-07-12 09:24:39"
   }
 }
