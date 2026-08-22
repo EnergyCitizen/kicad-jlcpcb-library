@@ -10,13 +10,13 @@
   "packages": {
     "url": "https://raw.githubusercontent.com/EnergyCitizen/kicad-jlcpcb-library/main/packages.json",
     "sha256": "7274f99c90de0ca20609eec3f674cd7b80d27286caf312d6ac69a2608ca4f9a3",
-    "update_timestamp": 1787299432,
-    "update_time_utc": "2026-08-21 08:03:52"
+    "update_timestamp": 1787385172,
+    "update_time_utc": "2026-08-22 07:52:52"
   },
   "resources": {
     "url": "https://raw.githubusercontent.com/EnergyCitizen/kicad-jlcpcb-library/main/resources.zip",
-    "sha256": "f8814d0a3b7e619eb6ce79038df400a1d99d461adac9af459a222c866a003003",
-    "update_timestamp": 1787299432,
-    "update_time_utc": "2026-08-21 08:03:52"
+    "sha256": "024526fd8b4945b7a081860f5aea62af97b0c89d26828bfaa467658dafb7a77a",
+    "update_timestamp": 1787385172,
+    "update_time_utc": "2026-08-22 07:52:52"
   }
 }
